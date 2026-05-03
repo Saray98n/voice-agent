@@ -1,46 +1,86 @@
 # 🎙️ Voice Agent
 
 ## 📌 Descripción
-Proyecto de agente de voz en Python que simula un sistema conversacional en tiempo real.
+Voice Agent es un asistente conversacional por voz desarrollado en Python usando asyncio. Simula el flujo de un sistema en tiempo real:
+
+Micrófono → Speech-to-Text → LLM → Text-to-Speech → Altavoz
 
 ---
 
-## 🎯 Objetivo
-Aprender la arquitectura de asistentes de voz mediante una implementación simple.
+## 🎯 Objetivo académico
+Comprender la arquitectura de agentes de voz y sistemas en tiempo real sin depender de frameworks complejos.
 
 ---
 
-## ⚙️ Flujo
-Micrófono → STT → LLM → TTS → Altavoz
+## ⚙️ Flujo del sistema
+
+1. Captura de audio (simulada)  
+2. Conversión de audio a texto (STT)  
+3. Procesamiento con modelo de lenguaje (LLM)  
+4. Generación de respuesta  
+5. Conversión de texto a audio (TTS)  
+6. Reproducción de audio  
 
 ---
 
-## ▶️ Ejecución
+## ▶️ Ejecución del proyecto
 
-python src/main.py
+Ejecutar desde la terminal:
+
+```bash
+py src/main.py
+```
 
 ---
 
-## 📂 Estructura
+## 📂 Estructura del proyecto
 
-- src/: código principal
-- tests/: pruebas básicas
-- ClientBrief.md: descripción del proyecto
-- requirements.txt: dependencias
+```text
+voice-agent/
+│── README.md
+│── ClientBrief.md
+│── requirements.txt
+│── src/
+│   ├── main.py
+│   ├── audio_input.py
+│   ├── stt.py
+│   ├── llm.py
+│   ├── tts.py
+│   └── audio_output.py
+│── tests/
+│   └── test_basic.py
+```
 
 ---
 
 ## 🧠 Flujo de trabajo
-El proyecto se desarrolla por etapas usando tareas (issues) y avances incrementales.
+
+El desarrollo se realizó de forma iterativa, dividiendo el proyecto en tareas (issues) y construyendo una versión funcional inicial.
+
+Se trabajó en:
+
+- Definición del problema (Client Brief)  
+- Creación de estructura base  
+- Implementación del loop asíncrono  
+- Simulación del flujo completo  
 
 ---
 
-## 🤖 Flujo de trabajo con Claude Code
+## 🚀 Estado del proyecto
 
-El desarrollo del proyecto se realizó siguiendo un enfoque iterativo basado en tareas (issues), simulando el uso de Claude Code como asistente para generar estructura, código base y organización del proyecto.
+Versión inicial funcional con simulación completa del sistema.
 
-Se trabajó en:
-- Definición del problema (Client Brief)
-- Generación de estructura inicial
-- Implementación de un loop asíncrono funcional
-- Iteración progresiva del sistema
+### Próximas mejoras:
+
+- Integración de audio real  
+- Implementación de STT real  
+- Integración con un modelo LLM  
+- Implementación de TTS real  
+- Desarrollo de interfaz web (frontend)  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Python  
+- asyncio  
