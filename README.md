@@ -32,3 +32,4 @@ python src/main.py
 
 ## 🧠 Flujo de trabajo
 El proyecto se desarrolla por etapas usando tareas (issues) y avances incrementales.
+
