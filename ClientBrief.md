@@ -1,32 +1,39 @@
 # 🎙️ Voice Agent - Client Brief
 
 ## 🧠 Descripción
-Voice Agent es un asistente de voz desarrollado en Python usando asyncio. Simula el flujo básico de un sistema conversacional:
+Voice Agent es un asistente de voz desarrollado en Python usando asyncio. Simula el flujo básico de un sistema conversacional en tiempo real:
 
 Micrófono → Speech-to-Text → LLM → Text-to-Speech → Altavoz
 
 ---
 
 ## 🎯 Objetivo
-Comprender cómo funciona la arquitectura de un agente de voz en tiempo real.
+Comprender la arquitectura de agentes de voz y el funcionamiento de sistemas en tiempo real sin depender de frameworks complejos.
 
 ---
 
-## 💡 Utilidad
-Permite a los desarrolladores entender el funcionamiento interno de asistentes virtuales.
+## 💡 Problema que resuelve
+Muchos desarrolladores utilizan asistentes como Alexa o Siri sin entender su funcionamiento interno. Este proyecto permite explorar y comprender ese flujo desde cero.
+
+---
+
+## 👩‍💻 Usuario objetivo
+Estudiantes y desarrolladores interesados en inteligencia artificial, procesamiento de lenguaje natural y sistemas de voz.
 
 ---
 
 ## ⚙️ Alcance
 
 ### Versión inicial
-- Captura de audio simulada
-- Conversión de audio a texto simulada
-- Procesamiento de texto
-- Respuesta generada
-- Salida de audio simulada
+- Captura de audio simulada  
+- Conversión de audio a texto simulada  
+- Procesamiento de texto  
+- Generación de respuesta  
+- Salida de audio simulada  
 
 ### Futuro
-- Audio real
-- Integración con APIs
-- Interfaz web
+- Integración de audio real  
+- Implementación de STT real  
+- Integración con un modelo LLM  
+- Implementación de TTS real  
+- Desarrollo de interfaz web  
