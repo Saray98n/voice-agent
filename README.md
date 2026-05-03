@@ -33,3 +33,14 @@ python src/main.py
 ## 🧠 Flujo de trabajo
 El proyecto se desarrolla por etapas usando tareas (issues) y avances incrementales.
 
+---
+
+## 🤖 Flujo de trabajo con Claude Code
+
+El desarrollo del proyecto se realizó siguiendo un enfoque iterativo basado en tareas (issues), simulando el uso de Claude Code como asistente para generar estructura, código base y organización del proyecto.
+
+Se trabajó en:
+- Definición del problema (Client Brief)
+- Generación de estructura inicial
+- Implementación de un loop asíncrono funcional
+- Iteración progresiva del sistema
