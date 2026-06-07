@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Agent</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<header class="hero">
+
+    <h1>
+        <i class="fa-solid fa-microphone-lines"></i>
+        Voice Agent
+    </h1>
+
+    <p>
+        Sistema conversacional con Speech-to-Text, LLM y Text-to-Speech
+    </p>
+
+    <img
+        src="assets/voice-agent-banner.jpg"
+        alt="Voice Agent"
+        class="banner">
+
+</header>
+
+<main class="container">
+
+    <section class="card">
+
+        <h2>🎙️ Simulador de Conversación</h2>
+
+        <div class="chat-container" id="chatContainer">
+
+            <div class="message assistant">
+                Hola 👋 Soy Voice Agent.
+                Puedes escribirme o utilizar el botón de voz.
+            </div>
+
+        </div>
+
+        <div class="input-container">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Escribe un mensaje...">
+
+            <button onclick="sendMessage()">
+                <i class="fa-solid fa-paper-plane"></i>
+                Enviar
+            </button>
+
+            <button onclick="startVoice()">
+                <i class="fa-solid fa-microphone"></i>
+                Hablar
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>🚀 Tecnologías</h2>
+
+        <ul>
+            <li>Python</li>
+            <li>Asyncio</li>
+            <li>Speech-to-Text</li>
+            <li>Large Language Model</li>
+            <li>Text-to-Speech</li>
+            <li>GitHub Issues</li>
+            <li>GitHub Pull Requests</li>
+            <li>Ralph Loops</li>
+        </ul>
+
+        <hr>
+
+        <h2>📊 Estado del Proyecto</h2>
+
+        <ul>
+            <li>✅ Backend Python</li>
+            <li>✅ Frontend Web</li>
+            <li>✅ Gestión de Issues</li>
+            <li>✅ Ralph Loops</li>
+            <li>✅ Handoffs</li>
+            <li>✅ Revisión Arquitectónica</li>
+            <li>✅ Software Journey</li>
+        </ul>
+
+        <hr>
+
+        <h2>🏗️ Arquitectura</h2>
+
+        <div class="pipeline">
+
+            <div class="step">🎤<span>Micrófono</span></div>
+            <div class="arrow">→</div>
+
+            <div class="step">📝<span>STT</span></div>
+            <div class="arrow">→</div>
+
+            <div class="step">🧠<span>LLM</span></div>
+            <div class="arrow">→</div>
+
+            <div class="step">🔊<span>TTS</span></div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Voice Agent • Proyecto Académico • 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
